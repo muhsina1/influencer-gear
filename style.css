@@ -5,6 +5,9 @@ font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 
 }
+h1{
+    font-size: 52px;
+}
 .start-products{
     display: flex;
 }
@@ -31,15 +34,16 @@ font-family: 'Poppins', sans-serif;
 .display-grid{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     grid-column-gap: 40px;
+     grid-column-gap: 20px;
      grid-row-gap: 40px;
+     justify-items: center;
 }
   
   .card{
     width: auto;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.336);
     padding: 5px 5px;
     border-radius: 5px;
 }
@@ -62,11 +66,12 @@ font-family: 'Poppins', sans-serif;
     margin-right: 120px;
     width: 99px;
     height: 24;
-    padding-left: 100px;
+}
     
     
     
-} 
+    
+
 .qualities{
     margin-top: 20px;
     display: flex;
