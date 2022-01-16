@@ -57,7 +57,7 @@ h1{
 }  
 
 .border:hover{
-    border: 2px solid skyblue;
+    border: 5px solid skyblue;
 }
 .see-button a{
     color: #E02C6D ;
@@ -80,10 +80,24 @@ footer{
     text-align: center;
 }
 .color-footer{
-    background-color: black;
+    background-color: #0A0826;
     color: white;
 }
     .icon-gap{
         padding-left: 20px;
         
     }  
+
+    @media only screen and (max-width: 500px) {
+
+        .start-products, .press-button{
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+
+  
+    .display-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    }
