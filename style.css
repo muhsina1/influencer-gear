@@ -1,0 +1,84 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+
+}
+.start-products{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+.press-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 30px;
+    
+    
+}
+    
+
+#text-center{
+    text-align: center;
+}
+.display-grid{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 40px;
+     grid-row-gap: 40px;
+}
+  
+  .card{
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+
+.fa-star{
+    font-size: 10px;
+}
+.fa-star.filled{
+    color: #FFC014; 
+}  
+
+.border:hover{
+    border: 2px solid skyblue;
+}
+.see-button a{
+    color: #E02C6D ;
+    text-decoration: none;
+    text-align: end; 
+    margin-right: 120px;
+    width: 99px;
+    height: 24;
+    padding-left: 100px;
+    
+    
+    
+} 
+.qualities{
+    margin-top: 20px;
+    display: flex;
+} 
+footer{
+    text-align: center;
+}
+.color-footer{
+    background-color: black;
+    color: white;
+}
+    .icon-gap{
+        padding-left: 20px;
+        
+    }  
